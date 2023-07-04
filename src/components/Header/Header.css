@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+.header {
+  width: 100%;
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  /* background-color: #3f598f; */
+  font-family: 'Tilt Warp', cursive;
+  background-color: black;
+  font-size: 5vw;
+  font-weight: 900;
+  padding-bottom: 15px;
+  box-shadow: 0px 5px 9px rgb(96, 91, 91);
+  color: rgb(232, 216, 216);
+  z-index: 100;
+  /* font-weight: 800; */
+}
+/* #39445a */
+@media (max-width: 1000px) {
+  .header {
+    padding-top: 15px;
+    font-size: 6.4vw;
+  }
+}
